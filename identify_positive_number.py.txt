@@ -1,0 +1,27 @@
+#
+#Created by: Wendi Yu
+#Created on: Mar 2018
+#
+#identify positive number
+
+num = int(input("Enter a number: "))
+
+
+
+if (num == 0):
+  
+	print("Invalid Number")
+
+
+elif (num > 0):
+  
+	print("Number is positive!")
+  
+
+else:
+  
+	print("Number is negative!")
+
+  
+
+input()
